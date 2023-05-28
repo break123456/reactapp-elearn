@@ -8,7 +8,7 @@ export default function Splash({navigation}) {
     <View style={style.container}>
       <Image style={style.img} source={require('../Images/twitter.png')} />
       <View>
-        <Text style={style.txt}>Rachana{'\n'}Ranade</Text>
+        <Text style={style.txt}>Break{'\n'}Interview</Text>
       </View>
     </View>
   );

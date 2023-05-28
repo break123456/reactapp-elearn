@@ -21,7 +21,7 @@ export default function SignInPage({navigation}) {
               source={require('../Images/twitter.png')}
             />
           </View>
-          <Text style={style.Ca}>CA Rachana Ranade</Text>
+          <Text style={style.Ca}>Break Interview</Text>
         </View>
       </LinearGradient>
       <View>
