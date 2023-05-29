@@ -3,7 +3,7 @@ import React from 'react';
  
 export default function Splash({navigation}) {
   setTimeout(() => {
-    navigation.navigate("LoginPage");
+    navigation.navigate("Account");
   }, 800);
   return (
     <View style={style.container}>

@@ -5,6 +5,8 @@ import LoginPage from './Screen/LoginPage';
 import LoginScreen from './Screen/LoginScreen';
 import SignInPage from './Screen/SignInPage';
 import SignInScreen from './Screen/SignInScreen';
+import Account from './Screen/Account';
+import Setting from './Screen/Setting';
 const nav = createStackNavigator({
   home: {
     screen: Splash,
@@ -24,6 +26,14 @@ const nav = createStackNavigator({
   },
   SignInScreen: {
     screen: SignInScreen,
+    navigationOptions: {headerShown: false},
+  },
+  Account: {
+    screen: Account,
+    navigationOptions: {headerShown: false},
+  },
+  Setting: {
+    screen: Setting,
     navigationOptions: {headerShown: false},
   },
 });
