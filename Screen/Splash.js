@@ -1,8 +1,9 @@
 import {View, Text, StyleSheet, Image} from 'react-native';
 import React from 'react';
+ 
 export default function Splash({navigation}) {
   setTimeout(() => {
-    navigation.navigate('SignInPage');
+    navigation.navigate("LoginPage");
   }, 800);
   return (
     <View style={style.container}>
